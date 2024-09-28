@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; // Permet au corps de remplir toute la hauteur de la fenêtre
+}
+nav {
+  margin-top: 10px; // Espace au-dessus du nav
+  background-color: #333; // Couleur de fond de la barre de navigation
+  padding: 10px 0; // Espacement interne
+
+  ul {
+    list-style-type: none; // Supprime les puces
+    padding: 0; // Supprime le rembourrage
+    margin: 0; // Supprime la marge
+    display: flex; // Utilise flexbox pour disposer les éléments en ligne
+    justify-content: center; // Centre les éléments
+
+    li {
+      margin: 0 10px; // Espacement entre les éléments
+
+      a {
+        color: white; // Couleur du texte
+        text-decoration: none; // Supprime le soulignement
+
+        &:hover {
+          text-decoration: underline; // Ajoute un soulignement au survol
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #333; // Couleur de fond du footer
+  color: white; // Couleur du texte
+  text-align: center; // Centre le texte
+  padding: 10px 0; // Espacement interne
+
+  .footer-container {
+    max-width: 1200px; // Largeur maximum du conteneur
+    margin: 0 auto; // Centre le conteneur
+    padding: 0 20px; // Rembourrage
+
+   
+  }
+}
+// couper
+.main-content {
+  flex: 1; // Permet à cette section de prendre l'espace disponible
+  display: flex; // Utilise flexbox pour centrer la card
+  justify-content: center; // Centre horizontalement
+  align-items: center; // Centre verticalement
+  background-color: #f0f0f0; // Couleur de fond de la section
+}
+
+.card {
+  background-color: white; // Couleur de fond de la card
+  padding: 20px; // Espacement interne
+  border-radius: 8px; // Bords arrondis
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Ombre portée
+  max-width: 600px; // Largeur maximum de la card
+  text-align: center; // Centre le texte à l'intérieur de la card
+}
+
+.card p {
+  font-size: 16px; // Taille de police
+  color: #333; // Couleur du texte
+  line-height: 1.6; // Espacement des lignes
+}
+.card:hover {
+  transform: scale(1.45); /* Zoom à 105% au survol */
+}
+
+
+
