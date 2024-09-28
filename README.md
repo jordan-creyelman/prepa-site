@@ -24,4 +24,4 @@ L'objectif de ce projet est de démontrer mes connaissances en développement we
 
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/ton-utilisateur/ton-repository.git
+   git clone https://github.com/jordan-creyelman/prepa-site.git
